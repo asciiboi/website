@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Headlib</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/minecraft-skinviewer.css">
+    <script src="scripts/main.js"></script>
+    <script src="scripts/heads.js"></script>
+  </head>
+  <body>
+
+    <main>
+      <section class="glass">
+        <div class="dashboard">
+          <p>Please select a head.</p>
+          <select name="heads" id="heads" onchange="updateHead()"></select>
+          <p>
+            Please select a head and copy the comand then paste it
+            into a commandblock and power it with redstone.
+            You can save the heads in the creative hotbar.
+          </p>
+        </div>
+        <div class="board">
+          <h1>Command:</h1>
+          <br>
+          <div class="GeneratedText">
+            <p id="GeneratedText"></p>
+          </div>
+          <style id="SkinRendererStyle"></style>
+          <div id="skin-viewer" class="mc-skin-viewer-11x spin">
+	           <div class="player">
+		         <!-- Head -->
+		         <div class="head" >
+			            <div class="top"></div>
+			            <div class="left"></div>
+			            <div class="front"></div>
+			            <div class="right"></div>
+			            <div class="back"></div>
+			            <div class="bottom"></div>
+			            <div class="accessory">
+				                <div class="top"></div>
+				                <div class="left"></div>
+				                <div class="front"></div>
+				                <div class="right"></div>
+				                <div class="back"></div>
+				                <div class="bottom"></div>
+			           </div>
+		         </div>
+           </div>
+           </div>
+          <p/>
+        </div>
+      </section>
+    </main>
+    <script type="text/javascript">init();</script>
+  </body>
+</html>
