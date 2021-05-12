@@ -18,6 +18,16 @@ Gradient colors:
   --CornerRad: 20px;
 }
 
+#search {
+  position: relative;
+  width: 80%;
+}
+
+#heads {
+  position: relative;
+  width: 80%;
+}
+
 main {
   min-height: 100vh;
   background: linear-gradient(to left bottom, #adf729,#75ffe6);

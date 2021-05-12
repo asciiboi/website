@@ -25,8 +25,25 @@ function updateHead() {
   HeadCommand = '/give @p player_head{SkullOwner:{Id:'+generateUUID()+',Name:"'+hf+'",Properties:{textures:[{Value:"'+HeadB64+'"}]}}}'
   setText("GeneratedText",HeadCommand);
   document.getElementById("SkinRendererStyle").innerHTML = "#skin-viewer *{ background-image: url('"+HeadURL+"'); }";
+}
 
+function UpdateSearch() {
+  var x = document.getElementById("heads");
+  if (typeof x !== "undefined") {
+    x.innerHTML = '';
+    var SearchBox = document.getElementById("search");
+    var input = SearchBox.value;
 
+    for (var key in heads) {
+      if (key.includes(input)) {
+        var option = document.createElement("option");
+        option.value = key;
+        option.text = heads[key];
+        x.add(option);
+      };
+    };
+    updateHead();
+  };
 }
 
 function init() {
