@@ -2,8 +2,8 @@
 
 
 body {
-  background: linear-gradient(to right top, red, green);
   min-height: 100vh;
+  background: linear-gradient(45deg, rgba(41,247,79,1) 0%, rgba(150,255,238,1) 50%, rgba(241,150,255,1) 100%);
 }
 
 a {
@@ -27,10 +27,15 @@ a {
 .button:hover {
   padding: 5px;
   color: black;
-  background: linear-gradient(to top left,#e66465, #9198e5);
+  background: white;
 }
 
-.button:hover a {
+.button:hover p {
+  color: black;
+}
+
+
+.button:hover a p {
   color: black;
 }
 .button a {
