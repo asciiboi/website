@@ -27,6 +27,7 @@ function updateHead() {
   document.getElementById("SkinRendererStyle").innerHTML = "#skin-viewer *{ background-image: url('"+HeadURL+"'); }";
 }
 
+
 function UpdateSearch() {
   var x = document.getElementById("heads");
   if (typeof x !== "undefined") {
@@ -47,12 +48,6 @@ function UpdateSearch() {
 }
 
 function init() {
-  var x = document.getElementById("heads");
-  for (var key in heads) {
-    var option = document.createElement("option");
-    option.value = key;
-    option.text = heads[key];
-    x.add(option);
-  };
+  UpdateSearch();
   updateHead();
 }
