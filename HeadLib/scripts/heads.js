@@ -1232,4 +1232,5 @@ heads = {
 'zombie_pigman_mask_LeoTheRavioli.png': 'Zombie Pigman Mask (LeoTheRavioli)',
 'zombie_villager_mask1_LeoTheRavioli.png': 'Zombie Villager Mask (LeoTheRavioli)',
 'друг.png':'??? Man Sitting on Branch',
+'KonasMask.png': 'The mask for the average konas enjoyer.'
 }
