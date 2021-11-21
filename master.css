@@ -1,0 +1,8 @@
+.StandardCard {
+    width: 20rem; 
+    padding: 0px; 
+    margin: 10px; 
+    background-color: #252526; 
+    color:white; 
+    border-radius: 10px;
+}
