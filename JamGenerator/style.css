@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #252525;
+}
+
+.centertext {
+    height: 50px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.wildcard_container {
+    min-height: 60%;
+
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.wildcard {
+    min-height: 100%;
+    width: 100%;
+    align-items: center;
+    padding: 10px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.wildcard hr {
+    width: 100%;
+    border: 1px solid white;
+}
+
+.nogap {
+    padding: 0px;
+    margin: 0px;
+}
+
+.col-1 {
+    background-color: #303030;
+}
