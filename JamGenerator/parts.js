@@ -6,7 +6,8 @@ var parts = {
         "Chaos",
         "Climb",
         "Dual purpose",
-        "Fish & fire"
+        "Fish & fire",
+        "Combine"
     ],
     "WildCards": [
         {
@@ -23,7 +24,7 @@ var parts = {
         },
         {
             "name": "Limited space",
-            "description": "Make the entire game fit within a single 64x64 pixels window."
+            "description": "Make the entire game fit within 64x64 pixels window."
         },
         {
             "name": "The good old days",
@@ -40,6 +41,18 @@ var parts = {
         {
             "name": "Combos",
             "description": "Add a combo system of some sorts."
+        },
+        {
+            "name": "Time to fish",
+            "description": "Include a fishing mini-game."
+        },
+        {
+            "name": "Weather",
+            "description": "Include a weather system."
+        },
+        {
+            "name": "Time travel",
+            "description": "Add system that lets you time travel."
         }
     ]
 }

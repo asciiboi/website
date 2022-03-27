@@ -5,8 +5,8 @@ function randomselect(array) {
 window.onload = function() {
     // Select theme
     console.log(parts.Themes[0]);
-    var x = document.getElementById("theme");
-    x.innerHTML = randomselect(parts.Themes);
+    var theme = document.getElementById("theme");
+    theme.innerHTML = randomselect(parts.Themes);
 
     // Select wildcard
     // Loop through 3 numbers
